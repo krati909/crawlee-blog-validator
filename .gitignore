@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Reports output
+reports/
+/tmp/
+
+# Playwright
+/ms-playwright/
+
+# IDE
+.vscode/
+.idea/
+
+# AWS
+*.zip
+cdk.out/
+aws/latest_logs.txt
+aws/output.json
+
+# Crawlee runtime storage
+storage/
+
+# Pytest
+.pytest_cache/
+
+# Logs
+*.log
+
+# Node (Playwright may pull in node deps)
+node_modules/
